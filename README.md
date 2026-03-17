@@ -1,44 +1,82 @@
 # Credit Risk Portfolio Analysis
 
-This project analyzes a lending portfolio dataset to identify borrower segments associated with higher default risk.
+This project analyzes a lending portfolio dataset to identify borrower segments associated with higher default risk and uncover key drivers of credit risk.
 
-## Objectives
+The analysis combines **Python (Google Colab)** for data processing and **Power BI** for interactive dashboarding.
 
-- Analyze loan portfolio characteristics
-- Identify key drivers of borrower default
-- Segment borrowers by credit risk indicators
-- Visualize high-risk segments using heatmaps
+---
 
-## Tools Used
+## 📌 Objectives
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Understand the overall health of a lending portfolio  
+- Identify key drivers of loan default  
+- Segment borrowers based on risk characteristics  
+- Build a dashboard for monitoring portfolio risk  
 
-## Key Analysis Performed
+---
 
-- Data cleaning and preprocessing
-- Handling missing values and outliers
-- Feature engineering
-- Default rate analysis across borrower segments
-- Risk heatmap visualization (Loan Grade vs Interest Rate)
+## 🛠 Tools & Technologies
 
-## Key Insights
+- Python (Pandas, NumPy)
+- Data Visualization (Matplotlib, Seaborn)
+- Power BI
+- Jupyter Notebook (Google Colab)
 
-- Default rates increase significantly as borrower credit grade deteriorates.
-- Higher interest rate segments are associated with higher default probability.
-- Borrowers with high revolving credit utilization and high DTI ratios show elevated credit risk.
+---
 
-## Project Structure
-credit-risk-portfolio-analysis
-│
-├── credit_risk_analysis.ipynb
-├── README.md
-└── requirements.txt
+## 🔍 Analysis Performed
 
-Author
+- Data cleaning and preprocessing  
+- Handling missing values and outliers  
+- Feature engineering (DTI groups, utilization groups, interest rate tiers)  
+- Exploratory Data Analysis (EDA)  
+- Default rate analysis across borrower segments  
+- Risk segmentation using heatmaps  
 
-Janet Opeyemi Usoko
+---
+
+## 📊 Key Insights
+
+- Default rates increase significantly as credit grade deteriorates (A → G)  
+- Higher interest rate tiers are associated with higher-risk borrowers  
+- Borrowers with high **debt-to-income ratios** and **high credit utilization** show elevated default risk  
+- Certain loan purposes exhibit higher default rates compared to others  
+
+---
+
+## 📈 Power BI Dashboard
+
+An interactive dashboard was built to monitor portfolio risk and borrower characteristics.
+
+### Key Features:
+
+- Portfolio overview metrics  
+- Default rate by grade, interest rate, DTI, and utilization  
+- Risk heatmap (Grade vs Interest Rate)  
+- Borrower characteristics analysis  
+- Loan performance tracking  
+---
+
+## 🔗 Project Resources
+
+- Notebook & Analysis  
+- Power BI Dashboard (.pbix file)  
+- Dashboard Screenshots  
+
+GitHub Repository:  
+https://github.com/opeyemijanet/Credit_risk_portfolio_analysis
+
+---
+
+## 📊 Dataset
+
+Lending Club Loan Dataset
+
+---
+
+## 👤 Author
+
+Janet Opeyemi Usoko  
+Data & Financial Analytics Professional | ACA  
+
+---
